@@ -1,0 +1,56 @@
+CREATE DATABASE algerian_football_clubs;
+USE algerian_football_clubs;
+CREATE TABLE clubs(
+    Rank INT,
+    Club VARCHAR(50),
+    Founded YEAR,
+    Wilaya VARCHAR(25),
+    Devision VARCHAR(25),
+    Points INT,
+    one_year_change INT
+);
+INSERT INTO clubs
+VALUES (1, "CR Belouizdad", 1962, "Alger", "Ligue 1", 1514, -18),
+       (2, "MC Alger", 1921, "Alger", "Ligue Pro. 1", 1507, 82),
+       (3, "CS Constantine", 1898, "Constantine", "Ligue 1", 1465, 15),
+	     (4, "JS Kabylie", 1946, "Tizi Ouzou", "Ligue Pro. 1", 1455, 7),
+       (5, "USM Alger", 1937, " Alger" ,"Ligue Pro. 1", 1435, 71),
+       (6, "ES Sétif", 1958, "Sétif", "Ligue Pro. 1", 1429, -14),
+       (7, "Pradou AC", 1994, "Alger", "Ligue Pro. 1", 1413, -82),
+       (8, "ASO Chlef", 1947, "Chlef", "Ligue 1", 1402, 138),
+       (9, "JS Saoura", 2008, "Béchar", "Ligue Pro. 1", 1395, -91),
+       (10, "MC Oran", 1917, "Oran", "Ligue Pro. 1", 1377, 232),
+       (11, "NC Magra", 1998, "M'Sila", "Ligue Pro. 1", 1358, 53),
+       (12, "USM Khenchela", 1943, "Khenchela", "Ligue 2", 1355, 19),
+       (13, "MC EL Bayadh", 1936, "EL Bayadh", "Ligue Pro. 1", 1353, -159),
+       (14, "MC EL Eulma", 1936, "Sétif", "Ligue 2", 1349, 17),
+       (15, "JSM Béjaia", 1936, "Béjaia", "Ligue 2", 1339, 12),
+       (16, "US Biskra", 1934, "Biskra", "Ligue Pro. 1", 1339, -194),
+       (17, "USM Annaba", 1983, "Annaba", "Ligue 2", 1330, 6),
+       (18, "USM EL Harrach", 1935, "Alger", "Ligue 2", 1324, -6),
+       (19, "RC Arbaa", 1941, "Blida", "Ligue 2", 1323, -4),
+       (20, "DRB Tadjenanet", 1970, "Mila", "Ligue 1", 1316, -7),
+       (21, "Olympique Akbou", 1936, "Béjaia", "Ligue Pro. 1", 1312, 106),
+       (22, "Ben Aknoun", 1935, "Alger", "Ligue 2", 1311, 173),
+       (23, "AS Ain M'lila", 1933, "Oum EL Bouaghi", "Ligue 2", 1308, -20),
+       (24, "AS Khroub", 1927, "Constantine", "Ligue 2", 1304, -17),
+       (25, "MC Saida", 1947, "Saida", "Ligue 2", 1301, -13),
+       (26, "MO Béjaia", 1954, "Béjaia", "Ligue 2", 1296, +5),
+       (27, "Olympique de Médea", 1945, "Médea", "Ligue Pro. 1", 1291, 3),
+       (28, "ES Mostaganem", 1940, "Mostaganem", "Ligue 2", 1290, -142),
+       (29, "USM Bel Abbès", 1933, "Sidi Bel Abbès", "Inter_regions", 1284, -2),
+       (30, "USM Blida", 1932, "Blida", "Ligue 2", 1268, 1),
+       (31, "CA Batna", 1932, "Batna", "Ligue 2", 1255, 26),
+       (32, "RC Relizane", 1934, "Relizane", "Inter-regions", 1254, 24),
+       (33, "NA Hussein Dey", 1947, "Alger", "Ligue Pro. 1", 1251, 21),
+       (34, "CRB Ain Fakroun", 1947, "Oum El Bouaghi", "Inter-regions", 1250, 52),
+       
+
+
+
+
+
+
+
+
+
