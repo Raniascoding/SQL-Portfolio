@@ -38,12 +38,19 @@ VALUES (1, "CR Belouizdad", 1962, "Alger", "Ligue 1", 1514, -18),
        (26, "MO Béjaia", 1954, "Béjaia", "Ligue 2", 1296, +5),
        (27, "Olympique de Médea", 1945, "Médea", "Ligue Pro. 1", 1291, 3),
        (28, "ES Mostaganem", 1940, "Mostaganem", "Ligue 2", 1290, -142),
-       (29, "USM Bel Abbès", 1933, "Sidi Bel Abbès", "Inter_regions", 1284, -2),
+       (29, "USM Bel Abbès", 1933, "Sidi Bel Abbès", "Inter-regions", 1284, -2),
        (30, "USM Blida", 1932, "Blida", "Ligue 2", 1268, 1),
        (31, "CA Batna", 1932, "Batna", "Ligue 2", 1255, 26),
        (32, "RC Relizane", 1934, "Relizane", "Inter-regions", 1254, 24),
        (33, "NA Hussein Dey", 1947, "Alger", "Ligue Pro. 1", 1251, 21),
        (34, "CRB Ain Fakroun", 1947, "Oum El Bouaghi", "Inter-regions", 1250, 52),
+       (35, "MSP Batna", 1962, "Batna", "Ligue 2", 1244, 43),
+       (36, "ASM Oran", 1933, "Oran", "Ligue 2", 1239, 37),
+       (37, "CA Borj Bou Arreridj", 1931, "Borj Bou Arreridj", "Regional 1", 1221, 16),
+       (38, "HB Chelghoum Laid", 1945, "Mila", "Inter-regions", 1212, 12),
+       (39, "US Souf", 1967, "El Oued", "Ligue 2", 1202, -633),
+       (40, "WA Tlemcen", 1963, "Tlemcen", "Inter-regions", 1196, 2),
+       (41, "JSM Skikda", 1936, "Skikda", "Inter-regions", 1189, 6);
        
 
 
