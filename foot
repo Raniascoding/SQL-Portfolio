@@ -13,7 +13,7 @@ INSERT INTO clubs
 VALUES (1, "CR Belouizdad", 1962, "Alger", "Ligue 1", 1514, -18),
        (2, "MC Alger", 1921, "Alger", "Ligue Pro. 1", 1507, 82),
        (3, "CS Constantine", 1898, "Constantine", "Ligue 1", 1465, 15),
-	     (4, "JS Kabylie", 1946, "Tizi Ouzou", "Ligue Pro. 1", 1455, 7),
+	(4, "JS Kabylie", 1946, "Tizi Ouzou", "Ligue Pro. 1", 1455, 7),
        (5, "USM Alger", 1937, " Alger" ,"Ligue Pro. 1", 1435, 71),
        (6, "ES Sétif", 1958, "Sétif", "Ligue Pro. 1", 1429, -14),
        (7, "Pradou AC", 1994, "Alger", "Ligue Pro. 1", 1413, -82),
@@ -51,7 +51,31 @@ VALUES (1, "CR Belouizdad", 1962, "Alger", "Ligue 1", 1514, -18),
        (39, "US Souf", 1967, "El Oued", "Ligue 2", 1202, -633),
        (40, "WA Tlemcen", 1963, "Tlemcen", "Inter-regions", 1196, 2),
        (41, "JSM Skikda", 1936, "Skikda", "Inter-regions", 1189, 6);
-       
+
+
+-- Get an overview of the data
+SELECT * FROM CityBikeLanes LIMIT 10;
+
+--Find the club that gained the most points over the past year.
+SELECT * 
+FROM clubs 
+ORDER BY one_year_change DESC 
+LIMIT 1;
+
+--Count how many clubs from each city are in Ligue 1.
+SELECT Wilaya
+FROM clubs 
+WHERE Devision = 'Ligue 1'
+GROUP BY Wilaya
+ORDER BY Points DESC;
+
+--Calculate the average points for each division to see competitiveness
+SELECT Devision, AVG(points) AS avg_points 
+FROM clubs 
+GROUP BY Devision
+ORDER BY avg_points DESC;
+
+
 
 
 
