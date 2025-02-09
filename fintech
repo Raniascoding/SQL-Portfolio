@@ -40,7 +40,33 @@ VALUES ("Visa", "$463.733 billion", "Paytech"),
        ("Bolt",	"$11 billion", "Paytech"),
        ("Gusto", "$10 billion", "Infrastructure"),
 
-
+INSERT INTO headquarters
+VALUES 
+(1, 'Visa', 'United States', 'Foster City', 'Global (Over 200 countries)', 50),
+(2, 'Mastercard', 'United States', 'Purchase', 'Global (Over 210 countries)', 40),
+(3, 'Tencent', 'China', 'Shenzhen', 'Primarily China, expanding globally', NULL),
+(4, 'Ant Financial', 'China', 'Hangzhou', 'Primarily China, expanding globally', NULL),
+(5, 'Intuit', 'United States', 'Mountain View', 'Global (US, Canada, UK, Australia, India)', NULL),
+(6, 'PayPal', 'United States', 'San Jose', 'Global (Over 200 countries)', 60),
+(7, 'Fiserv', 'United States', 'Brookfield', 'Global', NULL),
+(8, 'Stripe', 'United States', 'San Francisco', 'Global', NULL),
+(9, 'Square (Block, Inc.)', 'United States', 'San Francisco', 'Global', NULL),
+(10, 'Adyen', 'Netherlands', 'Amsterdam', 'Global', NULL),
+(11, 'Nubank', 'Brazil', 'São Paulo', 'Brazil, Mexico, Colombia', NULL),
+(12, 'Checkout.com', 'United Kingdom', 'London', 'Global', NULL),
+(13, 'Revolut', 'United Kingdom', 'London', 'Global', NULL),
+(14, 'Chime', 'United States', 'San Francisco', 'United States', NULL),
+(15, 'Polygon', 'India', 'Bengaluru', 'Global', NULL),
+(16, 'Rapyd', 'United Kingdom', 'London', 'Global', NULL),
+(17, 'Ripple', 'United States', 'San Francisco', 'Global', NULL),
+(18, 'Coinbase', 'United States', 'San Francisco', 'Global', NULL),
+(19, 'Blockchain.com', 'United Kingdom', 'London', 'Global', NULL),
+(20, 'Plaid', 'United States', 'San Francisco', 'United States, UK, Canada, Europe', NULL),
+(21, 'OpenSea', 'United States', 'New York', 'Global', NULL),
+(22, 'Brex', 'United States', 'San Francisco', 'United States', NULL),
+(23, 'Grab', 'Singapore', 'Singapore', 'Southeast Asia', NULL),
+(24, 'Bolt', 'Estonia', 'Tallinn', 'Global', NULL),
+(25, 'Gusto', 'United States', 'San Francisco', 'United States', NULL);
 
 
 
