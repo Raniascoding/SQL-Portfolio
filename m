@@ -1,19 +1,42 @@
-CREATE DATABASE Top_algerian_startups;
+CREATE DATABASE Top_african_tech_startups;
 CREATE TABLE startups (
-      Ranking INT,
       Startup_name VARCHAR(25),
       Founded YEAR,
-      Industry VARCHAR(50),
+      Industries VARCHAR(255),
+      Business_model VARCHAR (25),
+      Employees VARCHAR(50),
       Last_round VARCHAR(25),
-      Total_raised BEGINT
-)
+      Total_raised BIGINT,
+      Valuation BIGINT,
+      Headquarters_location VARCHAR(50)
+);
 
 INSERT INTO startups 
-VALUES (1, 'Yassir', 2016, 'Transport service (ride-hailing)', 'Series B', 217690000),
-       (2, 'General Emballage', 1998, 'Corrugated cardboard supplier', 'Private Equity', 55000000),
-       (3, 'TemTem', 2017, 'Ride-hailing', 'Series A', 5700000),
-       (4, 'LabLabee', 2021, 'Hands-on learning for network technologies', 'Seed', 3650000),
-       (5, 'Kick Sport', 2009, 'Martial arts equipment e-commerce', 'Seed', 312246),
-       (6, 'Eurl LD Azouaou', 2010, 'Tractor assembly and distribution', 'Corporate', 145448),
-       (7, 'Zawwali', 2013, 'Fashion & shoes e-commerce', 'Funding Round', 100000),
-       (8, 'Easouq', 2023, 'Digital marketing tools', 'Undisclosed', NULL);
+VALUES ('TemTem', 2018, 'Mobility & Logistics', 'B2C', '51-200', 'Series A', 4200000, 20000000, 'Algiers, Algeria'),
+       ('Yassir', 2017, 'Ride-hailing & Fintech', 'B2C', '1001-5000', 'Series B', 193000000, 500000000, 'Algiers, Algeria'),
+       ('InstaDeep', 2014, 'AI & Machine Learning', 'B2B', '201-500', 'Acquired', 100000000, 680000000, 'Tunis, Tunisia & Algiers, Algeria'),
+       ('GO Platform', 2021, 'E-commerce & Delivery', 'B2C', '11-50', 'Seed', 1000000, 5000000, 'Algiers, Algeria'),
+       ('Safe Sahara', 2020, 'Cybersecurity', 'B2B', '11-50', 'Seed', 500000, 3000000, 'Algiers, Algeria'),
+       ('Mondocteur DZ', 2019, 'HealthTech', 'B2C', '11-50', 'Seed', 700000, 4000000, 'Algiers, Algeria'),
+       ('iMadrassa', 2016, 'EdTech', 'B2C', '51-200', 'Seed', 2000000, 10000000, 'Algiers, Algeria'),
+       ('Flutterwave', 2016, 'Fintech', 'B2B', '501-1000', 'Series D', 475000000, 3000000000, 'Lagos, Nigeria'),
+       ('Chipper Cash', 2018, 'Fintech', 'B2C', '501-1000', 'Series C', 300000000, 2000000000, 'Accra, Ghana'),
+       ('Jumia', 2012, 'E-commerce', 'B2C', '5000+', 'IPO', 800000000, 1100000000, 'Lagos, Nigeria'),
+       ('Paystack', 2015, 'Fintech', 'B2B', '201-500', 'Acquired', 100000000, 200000000, 'Lagos, Nigeria'),
+       ('Yoco', 2015, 'Payments', 'B2B', '201-500', 'Series C', 83000000, 500000000, 'Cape Town, South Africa'),
+       ('Andela', 2014, 'Tech Talent', 'B2B', '1001-5000', 'Series E', 381000000, 1500000000, 'Lagos, Nigeria'),
+       ('Twiga Foods', 2014, 'AgriTech', 'B2B', '501-1000', 'Series C', 157000000, 500000000, 'Nairobi, Kenya'),
+       ('M-KOPA', 2011, 'Solar Energy', 'B2C', '1001-5000', 'Series E', 240000000, 800000000, 'Nairobi, Kenya'),
+       ('Wasoko', 2016, 'E-commerce', 'B2B', '501-1000', 'Series B', 143000000, 600000000, 'Nairobi, Kenya'),
+       ('Wave', 2018, 'Fintech', 'B2C', '501-1000', 'Series A', 200000000, 1700000000, 'Dakar, Senegal'),
+       ('Lori Systems', 2016, 'Logistics', 'B2B', '201-500', 'Series A', 38000000, 110000000, 'Nairobi, Kenya'),
+       ('mPharma', 2013, 'HealthTech', 'B2B', '1001-5000', 'Series D', 65000000, 400000000, 'Accra, Ghana'),
+       ('MaxAB', 2018, 'E-commerce', 'B2B', '501-1000', 'Series B', 145000000, 500000000, 'Cairo, Egypt'),
+       ('Trella', 2018, 'Logistics', 'B2B', '201-500', 'Series A', 42000000, 150000000, 'Cairo, Egypt'),
+       ('Kuda Bank', 2019, 'Fintech', 'B2C', '501-1000', 'Series B', 91000000, 500000000, 'Lagos, Nigeria'),
+       ('Moove', 2020, 'Mobility Fintech', 'B2B', '501-1000', 'Series B', 335000000, 800000000, 'Lagos, Nigeria'),
+       ('Sendy', 2015, 'Logistics', 'B2B', '201-500', 'Series B', 26000000, 100000000, 'Nairobi, Kenya'),
+       ('Paga', 2009, 'Fintech', 'B2C', '501-1000', 'Series C', 34000000, 200000000, 'Lagos, Nigeria'),
+       ('Autochek', 2020, 'AutoTech', 'B2C', '201-500', 'Series A', 13000000, 90000000, 'Lagos, Nigeria'),
+       ('54gene', 2019, 'Biotech', 'B2B', '201-500', 'Series B', 45000000, 200000000, 'Lagos, Nigeria'),
+       ('Vezeeta', 2012, 'HealthTech', 'B2C', '501-1000', 'Series D', 63000000, 500000000, 'Cairo, Egypt');
